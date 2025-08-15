@@ -5,12 +5,12 @@
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/index.js",
-    "dev": "tsx src/index.ts"
+    "dev": "tsx src/index.ts",
+    "dev:watch": "tsx --watch src/index.ts"
   },
   "author": "Pol Thongtaem",
   "license": "MIT",
   "devDependencies": {
-    "@tsconfig/node22": "^22.0.2",
     "@types/node": "^22.17.1",
     "tsx": "^4.20.4",
     "typescript": "^5.9.2"
